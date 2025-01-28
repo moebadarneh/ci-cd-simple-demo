@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: iangithua/cicd-docker-demo:cicd-docker-demo
+          image: moebadarneh/cicd-docker-demo:cicd-docker-demo
           ports:
             - containerPort: 8080
           env:
